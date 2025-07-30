@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Memberly - Create your own membership app in minutes",
+    "description": "Build customer loyalty digitally, quickly, and beautifully with Memberly."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "about": "About Us",
+      "contact": "Contact",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "© 2024 Memberly. All rights reserved."
+  },
+  "pricing": {
+    "setup": {
+      "title": "Setup Support",
+      "price": "CHF 69",
+      "period": "one-time",
+      "description": "Support with setting up and customizing your app",
+      "features": [
+        "Personal consultation",
+        "App configuration",
+        "Brand customization",
+        "Onboarding support"
+      ]
+    },
+    "plans": {
+      "basic": {
+        "title": "Basic",
+        "price": "CHF 19",
+        "period": "per month",
+        "description": "Essential features for individuals",
+        "features": [
+          "Up to 50 members",
+          "Basic features",
+          "Community support",
+          "Basic templates"
+        ]
+      },
+      "starter": {
+        "title": "Starter",
+        "price": "CHF 29",
+        "period": "per month",
+        "description": "Perfect for small businesses starting out",
+        "features": [
+          "Up to 100 members",
+          "Basic analytics",
+          "Email support",
+          "Standard templates"
+        ]
+      },
+      "pro": {
+        "title": "Professional",
+        "price": "CHF 79",
+        "period": "per month",
+        "description": "For growing businesses with advanced needs",
+        "features": [
+          "Up to 1,000 members",
+          "Advanced analytics",
+          "Priority support",
+          "Custom templates",
+          "API access"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Custom",
+        "period": "per month",
+        "description": "For large organizations with custom requirements",
+        "features": [
+          "Unlimited members",
+          "Custom analytics",
+          "24/7 support",
+          "Custom development",
+          "Dedicated account manager",
+          "SLA guarantee"
+        ]
+      }
+    }
+  }
+}

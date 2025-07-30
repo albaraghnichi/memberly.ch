@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Memberly - Crea tu propia aplicación de fidelización en minutos",
+    "description": "Construye la fidelidad de tus clientes de forma digital, rápida y hermosa con Memberly."
+  },
+  "nav": {
+    "features": "Funciones",
+    "pricing": "Precios",
+    "about": "Sobre nosotros",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Inicio",
+      "features": "Funciones",
+      "pricing": "Precios",
+      "about": "Sobre nosotros",
+      "contact": "Contacto",
+      "terms": "Términos y condiciones",
+      "privacy": "Política de privacidad"
+    },
+    "copyright": "© 2024 Memberly. Todos los derechos reservados."
+  },
+  "pricing": {
+    "setup": {
+      "title": "Soporte de configuración",
+      "price": "CHF 69",
+      "period": "único",
+      "description": "Ayuda con la configuración y personalización de tu aplicación",
+      "features": [
+        "Consulta personal",
+        "Configuración de la aplicación",
+        "Personalización de marca",
+        "Soporte de incorporación"
+      ]
+    },
+    "plans": {
+      "basic": {
+        "title": "Básico",
+        "price": "CHF 19",
+        "period": "por mes",
+        "description": "Funciones esenciales para individuos",
+        "features": [
+          "Hasta 50 miembros",
+          "Funciones básicas",
+          "Soporte comunitario",
+          "Plantillas básicas"
+        ]
+      },
+      "starter": {
+        "title": "Inicial",
+        "price": "CHF 29",
+        "period": "por mes",
+        "description": "Perfecto para pequeñas empresas que están comenzando",
+        "features": [
+          "Hasta 100 miembros",
+          "Análisis básico",
+          "Soporte por email",
+          "Plantillas estándar"
+        ]
+      },
+      "pro": {
+        "title": "Profesional",
+        "price": "CHF 79",
+        "period": "por mes",
+        "description": "Para empresas en crecimiento con necesidades avanzadas",
+        "features": [
+          "Hasta 1.000 miembros",
+          "Análisis avanzado",
+          "Soporte prioritario",
+          "Plantillas personalizadas",
+          "Acceso API"
+        ]
+      },
+      "enterprise": {
+        "title": "Empresarial",
+        "price": "Personalizado",
+        "period": "por mes",
+        "description": "Para grandes organizaciones con requisitos personalizados",
+        "features": [
+          "Miembros ilimitados",
+          "Análisis personalizado",
+          "Soporte 24/7",
+          "Desarrollo personalizado",
+          "Gestor de cuenta dedicado",
+          "Garantía SLA"
+        ]
+      }
+    }
+  }
+}

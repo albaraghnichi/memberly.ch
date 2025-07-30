@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Memberly - Créez votre propre application de fidélité en quelques minutes",
+    "description": "Construisez la fidélité client de manière digitale, rapide et belle avec Memberly."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Accueil",
+      "features": "Fonctionnalités",
+      "pricing": "Tarifs",
+      "about": "À propos",
+      "contact": "Contact",
+      "terms": "Conditions générales",
+      "privacy": "Politique de confidentialité"
+    },
+    "copyright": "© 2024 Memberly. Tous droits réservés."
+  },
+  "pricing": {
+    "setup": {
+      "title": "Support d'installation",
+      "price": "CHF 69",
+      "period": "unique",
+      "description": "Assistance pour la configuration et la personnalisation de votre application",
+      "features": [
+        "Consultation personnelle",
+        "Configuration de l'application",
+        "Personnalisation de la marque",
+        "Support d'intégration"
+      ]
+    },
+    "plans": {
+      "basic": {
+        "title": "Basique",
+        "price": "CHF 19",
+        "period": "par mois",
+        "description": "Fonctionnalités essentielles pour les particuliers",
+        "features": [
+          "Jusqu'à 50 membres",
+          "Fonctionnalités de base",
+          "Support communautaire",
+          "Modèles de base"
+        ]
+      },
+      "starter": {
+        "title": "Débutant",
+        "price": "CHF 29",
+        "period": "par mois",
+        "description": "Parfait pour les petites entreprises qui démarrent",
+        "features": [
+          "Jusqu'à 100 membres",
+          "Analyses de base",
+          "Support par email",
+          "Modèles standards"
+        ]
+      },
+      "pro": {
+        "title": "Professionnel",
+        "price": "CHF 79",
+        "period": "par mois",
+        "description": "Pour les entreprises en croissance avec des besoins avancés",
+        "features": [
+          "Jusqu'à 1.000 membres",
+          "Analyses avancées",
+          "Support prioritaire",
+          "Modèles personnalisés",
+          "Accès API"
+        ]
+      },
+      "enterprise": {
+        "title": "Entreprise",
+        "price": "Sur mesure",
+        "period": "par mois",
+        "description": "Pour les grandes organisations avec des besoins spécifiques",
+        "features": [
+          "Membres illimités",
+          "Analyses personnalisées",
+          "Support 24/7",
+          "Développement sur mesure",
+          "Gestionnaire de compte dédié",
+          "Garantie SLA"
+        ]
+      }
+    }
+  }
+}

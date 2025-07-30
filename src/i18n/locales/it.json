@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Memberly - Crea la tua app di fidelizzazione in pochi minuti",
+    "description": "Costruisci la fedeltà dei clienti in modo digitale, veloce e bello con Memberly."
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "contact": "Contatto"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Home",
+      "features": "Funzionalità",
+      "pricing": "Prezzi",
+      "about": "Chi siamo",
+      "contact": "Contatto",
+      "terms": "Termini e condizioni",
+      "privacy": "Informativa sulla privacy"
+    },
+    "copyright": "© 2024 Memberly. Tutti i diritti riservati."
+  },
+  "pricing": {
+    "setup": {
+      "title": "Supporto configurazione",
+      "price": "CHF 69",
+      "period": "una tantum",
+      "description": "Assistenza per la configurazione e personalizzazione della tua app",
+      "features": [
+        "Consulenza personale",
+        "Configurazione app",
+        "Personalizzazione del marchio",
+        "Supporto onboarding"
+      ]
+    },
+    "plans": {
+      "basic": {
+        "title": "Base",
+        "price": "CHF 19",
+        "period": "al mese",
+        "description": "Funzionalità essenziali per privati",
+        "features": [
+          "Fino a 50 membri",
+          "Funzionalità di base",
+          "Supporto community",
+          "Template base"
+        ]
+      },
+      "starter": {
+        "title": "Base",
+        "price": "CHF 29",
+        "period": "al mese",
+        "description": "Perfetto per piccole imprese che iniziano",
+        "features": [
+          "Fino a 100 membri",
+          "Analisi di base",
+          "Supporto email",
+          "Template standard"
+        ]
+      },
+      "pro": {
+        "title": "Professionale",
+        "price": "CHF 79",
+        "period": "al mese",
+        "description": "Per aziende in crescita con esigenze avanzate",
+        "features": [
+          "Fino a 1.000 membri",
+          "Analisi avanzate",
+          "Supporto prioritario",
+          "Template personalizzati",
+          "Accesso API"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Personalizzato",
+        "period": "al mese",
+        "description": "Per grandi organizzazioni con requisiti personalizzati",
+        "features": [
+          "Membri illimitati",
+          "Analisi personalizzate",
+          "Supporto 24/7",
+          "Sviluppo personalizzato",
+          "Account manager dedicato",
+          "Garanzia SLA"
+        ]
+      }
+    }
+  }
+}

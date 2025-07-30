@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Memberly - Deine eigene Member-App in wenigen Minuten",
+    "description": "Mit Memberly baust du Kundenbindung digital, schnell und schön."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Home",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "terms": "AGB",
+      "privacy": "Datenschutz"
+    },
+    "copyright": "© 2024 Memberly. Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wie können wir dir helfen?",
+    "form": {
+      "firstName": "Vorname",
+      "company": "Firma (optional)",
+      "email": "E-Mail-Adresse",
+      "message": "Nachricht",
+      "privacy": "Ich stimme der Datenschutzerklärung zu",
+      "submit": "Nachricht senden",
+      "success": {
+        "title": "Nachricht gesendet!",
+        "message": "Vielen Dank für deine Nachricht. Wir melden uns in Kürze bei dir."
+      }
+    }
+  },
+  "download": {
+    "title": "Jetzt kostenlos herunterladen",
+    "subtitle": "Wähle deine Plattform:",
+    "platforms": {
+      "android": "Für Android herunterladen",
+      "ios": "Für iOS herunterladen"
+    }
+  },
+  "popup": {
+    "title": "🎁 Jetzt kostenlos herunterladen",
+    "subtitle": "Wähle deine Plattform:",
+    "cta": "Jetzt starten"
+  }
+}
