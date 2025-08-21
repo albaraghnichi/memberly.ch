@@ -102,9 +102,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy-policy"  element={
-    <div className="min-h-screen snap-y snap-mandatory">
       <Datenschutz isVisible={true} />
-    </div>
   }   />
           <Route path="/agb" element={<AGB />} />
         </Routes>
