@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
 const ANDROID_APP_URL = "https://play.google.com/store/apps/details?id=com.selisebt.memberly";
-const IOS_APP_URL = "https://apps.apple.com";
+const IOS_APP_URL = "https://apps.apple.com/ch/app/memberly-together/id6505063828";
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
