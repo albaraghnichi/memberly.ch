@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Instagram } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 // TikTok SVG Icon Component
 const TikTokIcon: React.FC<{ size?: number; className?: string }> = ({ size = 20, className = "" }) => (
@@ -22,6 +22,8 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ onShowDatenschutz }) => {
+      const navigate = useNavigate();
+
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
@@ -33,6 +35,10 @@ const Footer: React.FC<FooterProps> = ({ onShowDatenschutz }) => {
         block: 'start'
       });
     }
+  };
+
+  const goToPrivacyPolicy = () => {
+    navigate("/privacy-policy");
   };
 
   return (
@@ -103,7 +109,7 @@ const Footer: React.FC<FooterProps> = ({ onShowDatenschutz }) => {
               </li>
               <li>
                 <button
-                  onClick={onShowDatenschutz}
+                  onClick={goToPrivacyPolicy}
                   className="text-white/70 hover:text-white text-sm transition-colors cursor-pointer"
                 >
                   Datenschutz
