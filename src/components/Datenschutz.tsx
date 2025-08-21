@@ -29,7 +29,7 @@ const Datenschutz: React.FC<DatenschutzProps> = ({ isVisible, onClose }) => {
       {/*      {isVisible && (  */}
         <motion.section 
           id="datenschutz" 
-          className="py-24 bg-white relative overflow-hidden"
+          className="py-24 bg-white relative overflow-hidden mt-[70px]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 50 }}
