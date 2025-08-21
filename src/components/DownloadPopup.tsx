@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Download } from 'lucide-react';
 
 const ANDROID_APP_URL = "https://play.google.com/store/apps/details?id=com.selisebt.memberly";
-const IOS_APP_URL = "https://apps.apple.com";
+const IOS_APP_URL = "https://apps.apple.com/us/app/memberly-together/id6505063828";
 
 // Apple Logo SVG Component
 const AppleLogo: React.FC<{ size?: number; className?: string }> = ({ size = 20, className = "" }) => (
