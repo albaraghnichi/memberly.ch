@@ -73,6 +73,12 @@ function HomePage() {
   const handleCloseDatenschutz = () => {
     setShowDatenschutz(false);
   };
+   useEffect(() => {
+    document.documentElement.style.scrollBehavior = 'smooth';
+    return () => {
+      document.documentElement.style.scrollBehavior = 'auto';
+    };
+  }, []);
 
   return (
     <div className="min-h-screen snap-y snap-mandatory">
