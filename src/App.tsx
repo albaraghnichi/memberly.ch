@@ -84,7 +84,9 @@ function HomePage() {
       <Partners />
       <Pricing />
       <Contact />
-      <Datenschutz isVisible={showDatenschutz} onClose={handleCloseDatenschutz} />
+{/*
+  <Datenschutz isVisible={showDatenschutz} onClose={handleCloseDatenschutz} />
+*/}
       <Footer onShowDatenschutz={handleShowDatenschutz} />
       <DownloadPopup delay={5000} />
     </div>
@@ -99,6 +101,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Datenschutz />}  />
           <Route path="/agb" element={<AGB />} />
         </Routes>
       </div>
