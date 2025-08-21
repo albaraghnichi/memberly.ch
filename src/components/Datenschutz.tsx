@@ -26,7 +26,7 @@ const Datenschutz: React.FC<DatenschutzProps> = ({ isVisible, onClose }) => {
 
   return (
     <AnimatePresence>
-      {isVisible && (
+      {/*      {isVisible && (  */}
         <motion.section 
           id="datenschutz" 
           className="py-24 bg-white relative overflow-hidden"
@@ -172,7 +172,7 @@ const Datenschutz: React.FC<DatenschutzProps> = ({ isVisible, onClose }) => {
             </motion.div>
           </div>
         </motion.section>
-      )}
+      {/*    )} */}
     </AnimatePresence>
   );
 };
