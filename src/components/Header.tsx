@@ -50,16 +50,19 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
-      });
-    }
-    setIsMenuOpen(false);
-  };
+/*
+const scrollToSection = (sectionId: string) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+  setIsMenuOpen(false);
+};
+*/
+
 
   return (
     <>
