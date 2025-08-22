@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ArrowUp } from 'lucide-react';
+import { useNavigate } from "react-router-dom";
+
 
 interface DatenschutzProps {
   isVisible: boolean;
@@ -9,6 +11,8 @@ interface DatenschutzProps {
 }
 
 const Datenschutz: React.FC<DatenschutzProps> = ({ isVisible, onClose }) => {
+    const navigate = useNavigate();
+
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -22,6 +26,10 @@ const Datenschutz: React.FC<DatenschutzProps> = ({ isVisible, onClose }) => {
     if (onClose) {
       onClose();
     }
+  };
+
+  const goHome = () => {
+    navigate("/", { replace: true });
   };
 
   return (
@@ -46,7 +54,7 @@ const Datenschutz: React.FC<DatenschutzProps> = ({ isVisible, onClose }) => {
               {/* Back to Top Button at the top */}
               <div className="mb-8 text-center">
                 <motion.button
-                  onClick={scrollToTop}
+                  onClick={goHome}
                   className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition-all shadow-lg"
                   whileHover={{ scale: 1.05, boxShadow: '0 0 20px rgba(224, 29, 31, 0.4)' }}
                   whileTap={{ scale: 0.95 }}
